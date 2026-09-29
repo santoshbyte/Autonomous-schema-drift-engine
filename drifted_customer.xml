@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Customer>
+    <customerName>ABC Corporation</customerName>
+    <Amount>25000</Amount>
+</Customer>
