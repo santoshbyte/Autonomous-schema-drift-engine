@@ -1,0 +1,20 @@
+{
+  "mappings": [
+    {
+      "source": "empId",
+      "target": "EmployeeID"
+    },
+    {
+      "source": "empName",
+      "target": "EmployeeName"
+    },
+    {
+      "source": "deptCode",
+      "target": "DepartmentCode"
+    },
+    {
+      "source": "salary",
+      "target": "Salary"
+    }
+  ]
+}
