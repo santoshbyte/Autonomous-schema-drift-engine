@@ -1,3 +1,16 @@
+## Live Control Plane
+
+The React control plane is deployed separately.
+
+**Live Dashboard:**  
+(https://schema-drift-dashboard-dz808n48r-santoshbytes-projects.vercel.app/)
+
+**Frontend Repository:**  
+https://github.com/santoshbyte/schema-drift-dashboard
+
+**Backend Repository:**  
+https://github.com/santoshbyte/Autonomous-schema-drift-engine
+
 # Autonomous Schema Drift Detection & Semantic Mapping Healer
 
 > **AI-assisted schema drift detection, semantic understanding, mapping repair, validation, and release governance for enterprise integration systems.**
@@ -53,7 +66,20 @@
 - [License](#license)
 
 ---
+## Production Architecture
 
+```text
+React Control Plane
+        │
+        │ HTTPS
+        ▼
+Node / Express Gemini Proxy
+        │
+        ▼
+Google Gemini
+        │
+        ▼
+Schema / Mapping Intelligence
 # Overview
 
 Enterprise integration systems depend on stable data contracts, schemas, APIs, and transformation mappings.
@@ -64,3 +90,6 @@ For example, an upstream employee system may change:
 
 ```text
 empName
+
+<img width="1340" height="902" alt="image" src="https://github.com/user-attachments/assets/ce1f6883-6da2-4d44-bb89-d7b8de615e7e" />
+
